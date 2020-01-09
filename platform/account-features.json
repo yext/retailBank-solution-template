@@ -1,0 +1,9 @@
+{
+  "$type": "https://schema.yext.cloud/config/platform/account-features",
+  "enabled": [
+    "Always Show Google My Business \u0026 Facebook Fields",
+    "Home Screen (early access)",
+    "Page Builder"
+  ],
+  "disabled": []
+}

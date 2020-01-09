@@ -1,0 +1,241 @@
+{
+  "$type": "https://schema.yext.cloud/config/answers/answers-config",
+  "name": "Credit Union",
+  "supportedLocales": [],
+  "countryRestrictions": [],
+  "verticals": {
+    "FAQs": {
+      "entityTypes": [
+        "faq"
+      ],
+      "keywords": [],
+      "name": "FAQs",
+      "searchableFields": {
+        "builtin.entityType": {
+          "nlpFilter": true
+        },
+        "name": {
+          "textSearch": true
+        }
+      },
+      "sortBys": [],
+      "source": "KNOWLEDGE_MANAGER"
+    },
+    "Jobs": {
+      "entityTypes": [
+        "job"
+      ],
+      "keywords": [],
+      "name": "Jobs",
+      "searchableFields": {
+        "builtin.entityType": {
+          "nlpFilter": true
+        },
+        "builtin.location": {
+          "nlpFilter": true,
+          "textSearch": true
+        },
+        "employmentType": {
+          "textSearch": true
+        },
+        "hiringOrganization": {
+          "textSearch": true
+        },
+        "name": {
+          "textSearch": true
+        }
+      },
+      "sortBys": [],
+      "source": "KNOWLEDGE_MANAGER"
+    },
+    "Locations": {
+      "entityTypes": [
+        "atm",
+        "location"
+      ],
+      "keywords": [],
+      "name": "Locations",
+      "searchableFields": {
+        "builtin.entityType": {
+          "nlpFilter": true
+        },
+        "builtin.location": {
+          "nlpFilter": true,
+          "textSearch": true
+        },
+        "name": {
+          "textSearch": true
+        }
+      },
+      "sortBys": [],
+      "source": "KNOWLEDGE_MANAGER"
+    },
+    "Products": {
+      "entityTypes": [
+        "ce_product"
+      ],
+      "keywords": [],
+      "name": "Products",
+      "searchableFields": {
+        "builtin.entityType": {
+          "nlpFilter": true
+        },
+        "keywords": {
+          "nlpFilter": true,
+          "textSearch": true
+        },
+        "name": {
+          "textSearch": true
+        }
+      },
+      "sortBys": [],
+      "source": "KNOWLEDGE_MANAGER"
+    }
+  },
+  "autocomplete": {
+    "disablePopularQueries": false,
+    "hardcodedPrompts": [
+      "branches near me",
+      "atm near me"
+    ]
+  },
+  "synonyms": {
+    "oneWay": [
+      {
+        "phrase": "what time",
+        "synonyms": [
+          "hours"
+        ]
+      },
+      {
+        "phrase": "branches",
+        "synonyms": [
+          "branch"
+        ]
+      },
+      {
+        "phrase": "checks",
+        "synonyms": [
+          "order checks"
+        ]
+      },
+      {
+        "phrase": "bank",
+        "synonyms": [
+          "branch"
+        ]
+      },
+      {
+        "phrase": "banks",
+        "synonyms": [
+          "branch"
+        ]
+      },
+      {
+        "phrase": "retire",
+        "synonyms": [
+          "retirement"
+        ]
+      },
+      {
+        "phrase": "home",
+        "synonyms": [
+          "home finance"
+        ]
+      },
+      {
+        "phrase": "overcharged",
+        "synonyms": [
+          "dispute a charge"
+        ]
+      },
+      {
+        "phrase": "house",
+        "synonyms": [
+          "home finance"
+        ]
+      },
+      {
+        "phrase": "bank account",
+        "synonyms": [
+          "account"
+        ]
+      },
+      {
+        "phrase": "fico score",
+        "synonyms": [
+          "fico"
+        ]
+      },
+      {
+        "phrase": "on line banking",
+        "synonyms": [
+          "online banking"
+        ]
+      }
+    ],
+    "synonymSet": [
+      [
+        "loans",
+        "loan"
+      ],
+      [
+        "personal loans",
+        "personal loan"
+      ],
+      [
+        "automated teller machine",
+        "atm",
+        "atms"
+      ],
+      [
+        "credit card",
+        "credit cards"
+      ],
+      [
+        "deposit from phone",
+        "mobile deposit"
+      ],
+      [
+        "cd",
+        "cds",
+        "certificates of deposit",
+        "certificate of deposit",
+        "certificate of deposits"
+      ],
+      [
+        "checking",
+        "checking account",
+        "checking accounts"
+      ],
+      [
+        "home loan",
+        "mortgage",
+        "home loans",
+        "home mortgage"
+      ],
+      [
+        "joint account",
+        "joint checking account",
+        "joint bank account",
+        "joint"
+      ],
+      [
+        "auto loan",
+        "car loan",
+        "car loans",
+        "auto loans"
+      ],
+      [
+        "student loans",
+        "student lending"
+      ],
+      [
+        "my account",
+        "log in"
+      ]
+    ]
+  },
+  "localizations": {},
+  "$id": "credit_union"
+}

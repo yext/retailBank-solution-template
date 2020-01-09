@@ -1,0 +1,20 @@
+{
+  "$id": "photo",
+  "$type": "https://schema.yext.cloud/config/km/custom-field",
+  "displayName": "Photo",
+  "apiName": "c_photo",
+  "localization": "PRIMARY_ONLY",
+  "group": "NONE",
+  "typeId": "type.image",
+  "type": {
+    "imageType": {
+      "isSimpleImage": true,
+      "minSize": {
+        "height": 0,
+        "width": 0
+      },
+      "noAllowedAspectRatios": true,
+      "unconstrainedAspectRatioAllowed": true
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "$id": "c_apr",
+  "$schema": "https://json-schema.org/draft/2019-09/schema",
+  "$type": "https://schema.yext.cloud/config/schema/field",
+  "regex": "^-?[\\d\\.]+$",
+  "title": "APR",
+  "type": "string",
+  "yext.field_id": "location.custom.3020317.apr.0"
+}

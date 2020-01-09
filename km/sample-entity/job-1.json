@@ -1,0 +1,14 @@
+{
+  "$id": "job-1",
+  "$type": "https://schema.yext.cloud/config/km/sample-entity",
+  "entityType": "job",
+  "content": {
+    "c_activeOnAnswers": true,
+    "c_activeOnPages": true,
+    "yext.applicationUrl": "http://www.yext.com",
+    "yext.description": "Credit Union Demo is looking for a Director of Collections to join the Collections Team. This role will report to the Chief Lending Officer (CLO) and will be responsible for leading the development, deployment and direction of Collections programs and processes. This role will be responsible for providing strategy, guidance, support and directives related to collection efforts for all consumer (secured and unsecured)/real estate loan products, business loan products, services and delivery systems. In addition, overseeing the delinquency control on all consumer, real estate loans and business loans including; modifications loans on each product, controlling charge off and providing accurate known loss details, and liquidation of repossessed/foreclosed collateral including commercial loans.",
+    "yext.jobLocation": "1",
+    "yext.landingPageUrl": "http://www.yext.com",
+    "yext.name": "Job"
+  }
+}

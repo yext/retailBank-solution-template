@@ -1,0 +1,56 @@
+{
+  "$id": "ce_product",
+  "$schema": "https://json-schema.org/draft/2019-09/schema",
+  "$type": "https://schema.yext.cloud/config/schema/document",
+  "description": "This is to store information around credit cards, loans, checking accounts, or other products offered by credit unions. ",
+  "primaryKey": "entityId",
+  "properties": {
+    "c_activeOnAnswers": {
+      "$ref": "https://schema.yext.cloud/fields/account-3020317/c_activeOnAnswers"
+    },
+    "c_activeOnPages": {
+      "$ref": "https://schema.yext.cloud/fields/account-3020317/c_activeOnPages"
+    },
+    "c_apr": {
+      "$ref": "https://schema.yext.cloud/fields/account-3020317/c_apr"
+    },
+    "c_ctas": {
+      "$ref": "https://schema.yext.cloud/fields/account-3020317/c_ctas"
+    },
+    "c_photo": {
+      "$ref": "https://schema.yext.cloud/fields/account-3020317/c_photo"
+    },
+    "c_ratesAndDisclosuresURL": {
+      "$ref": "https://schema.yext.cloud/fields/account-3020317/c_ratesAndDisclosuresURL"
+    },
+    "description": {
+      "$ref": "https://schema.yext.cloud/fields/yext/description"
+    },
+    "entityId": {
+      "$ref": "https://schema.yext.cloud/fields/yext/entityId"
+    },
+    "externalEntityId": {
+      "$ref": "https://schema.yext.cloud/fields/yext/externalEntityId"
+    },
+    "keywords": {
+      "$ref": "https://schema.yext.cloud/fields/yext/keywords"
+    },
+    "labels": {
+      "$ref": "https://schema.yext.cloud/fields/yext/labels"
+    },
+    "landingPageUrl": {
+      "$ref": "https://schema.yext.cloud/fields/yext/landingPageUrl"
+    },
+    "name": {
+      "$ref": "https://schema.yext.cloud/fields/yext/name"
+    }
+  },
+  "required": [
+    "entityId",
+    "externalEntityId",
+    "name"
+  ],
+  "title": "Product",
+  "type": "object",
+  "yext.entity_type_id": 4181
+}

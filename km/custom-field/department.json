@@ -1,0 +1,14 @@
+{
+  "$id": "department",
+  "$type": "https://schema.yext.cloud/config/km/custom-field",
+  "displayName": "Department",
+  "apiName": "c_department",
+  "localization": "PRIMARY_ONLY",
+  "group": "NONE",
+  "typeId": "type.string",
+  "type": {
+    "stringType": {
+      "stereotype": "SIMPLE"
+    }
+  }
+}

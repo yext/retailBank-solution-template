@@ -1,0 +1,55 @@
+{
+  "$id": "faq",
+  "$schema": "https://json-schema.org/draft/2019-09/schema",
+  "$type": "https://schema.yext.cloud/config/schema/document",
+  "description": "Use this type to add any frequently asked questions and their answers to Yext.",
+  "primaryKey": "entityId",
+  "properties": {
+    "answer": {
+      "$ref": "https://schema.yext.cloud/fields/yext/answer"
+    },
+    "c_activeOnAnswers": {
+      "$ref": "https://schema.yext.cloud/fields/account-3020317/c_activeOnAnswers"
+    },
+    "c_activeOnPages": {
+      "$ref": "https://schema.yext.cloud/fields/account-3020317/c_activeOnPages"
+    },
+    "c_ctas": {
+      "$ref": "https://schema.yext.cloud/fields/account-3020317/c_ctas"
+    },
+    "entityId": {
+      "$ref": "https://schema.yext.cloud/fields/yext/entityId"
+    },
+    "externalEntityId": {
+      "$ref": "https://schema.yext.cloud/fields/yext/externalEntityId"
+    },
+    "keywords": {
+      "$ref": "https://schema.yext.cloud/fields/yext/keywords"
+    },
+    "labels": {
+      "$ref": "https://schema.yext.cloud/fields/yext/labels"
+    },
+    "landingPageUrl": {
+      "$ref": "https://schema.yext.cloud/fields/yext/landingPageUrl"
+    },
+    "name": {
+      "$ref": "https://schema.yext.cloud/fields/yext/name"
+    },
+    "nudgeEnabled": {
+      "$ref": "https://schema.yext.cloud/fields/yext/nudgeEnabled"
+    },
+    "primaryConversationContact": {
+      "$ref": "https://schema.yext.cloud/fields/yext/primaryConversationContact"
+    },
+    "timezone": {
+      "$ref": "https://schema.yext.cloud/fields/yext/timezone"
+    }
+  },
+  "required": [
+    "entityId",
+    "externalEntityId"
+  ],
+  "title": "FAQ",
+  "type": "object",
+  "yext.entity_type_id": 4002
+}

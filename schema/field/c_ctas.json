@@ -1,0 +1,77 @@
+{
+  "$id": "c_ctas",
+  "$schema": "https://json-schema.org/draft/2019-09/schema",
+  "$type": "https://schema.yext.cloud/config/schema/field",
+  "items": {
+    "properties": {
+      "icon": {
+        "enum": [
+          "Star",
+          "Thumb",
+          "Receipt",
+          "Pantheon",
+          "Mic",
+          "Directions",
+          "Calendar",
+          "Callout",
+          "Info",
+          "Briefcase",
+          "Kabob",
+          "Person",
+          "Magnifying_glass",
+          "Office",
+          "Link",
+          "Window",
+          "Phone",
+          "Tag",
+          "Document",
+          "Chevron",
+          "Support",
+          "Pin",
+          "Gear"
+        ],
+        "enumTitle": {
+          "Briefcase": "Briefcase",
+          "Calendar": "Calendar",
+          "Callout": "Callout",
+          "Chevron": "Chevron",
+          "Directions": "Directions",
+          "Document": "Document",
+          "Gear": "Gear",
+          "Info": "Info",
+          "Kabob": "Kabob",
+          "Link": "Link",
+          "Magnifying_glass": "Magnifying_glass",
+          "Mic": "Mic",
+          "Office": "Office",
+          "Pantheon": "Pantheon",
+          "Person": "Person",
+          "Phone": "Phone",
+          "Pin": "Pin",
+          "Receipt": "Receipt",
+          "Star": "Star",
+          "Support": "Support",
+          "Tag": "Tag",
+          "Thumb": "Thumb",
+          "Window": "Window"
+        },
+        "title": "Icon",
+        "type": "string"
+      },
+      "text": {
+        "title": "Text",
+        "type": "string"
+      },
+      "url": {
+        "format": "uri",
+        "title": "URL",
+        "type": "string"
+      }
+    },
+    "type": "object"
+  },
+  "maxItems": 2,
+  "title": "CTAs",
+  "type": "array",
+  "yext.field_id": "location.custom.3020317.ctas.0"
+}

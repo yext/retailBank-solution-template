@@ -1,0 +1,19 @@
+{
+  "$id": "event",
+  "$type": "https://schema.yext.cloud/config/km/built-in-entity-type",
+  "enabled": false,
+  "entry": [
+    {
+      "id": "activeOnAnswers",
+      "required": false
+    },
+    {
+      "id": "activeOnPages",
+      "required": false
+    },
+    {
+      "id": "ctas",
+      "required": false
+    }
+  ]
+}
