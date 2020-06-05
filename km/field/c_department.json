@@ -1,0 +1,13 @@
+{
+  "$id": "c_department",
+  "displayName": "Department",
+  "localization": "PRIMARY_ONLY",
+  "group": "NONE",
+  "typeId": "yext/string",
+  "type": {
+    "stringType": {
+      "stereotype": "SIMPLE"
+    }
+  },
+  "$schema": "https://schema.yext.com/config/km/field/v1"
+}

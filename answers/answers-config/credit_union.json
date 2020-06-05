@@ -1,5 +1,4 @@
 {
-  "$type": "https://schema.yext.cloud/config/answers/answers-config",
   "name": "Credit Union",
   "supportedLocales": [],
   "countryRestrictions": [],
@@ -237,5 +236,6 @@
     ]
   },
   "localizations": {},
-  "$id": "credit_union"
+  "$id": "credit_union",
+  "$schema": "https://schema.yext.com/config/answers/answers-config/v1"
 }

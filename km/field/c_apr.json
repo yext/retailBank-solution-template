@@ -1,0 +1,11 @@
+{
+  "$id": "c_apr",
+  "displayName": "APR",
+  "localization": "PRIMARY_ONLY",
+  "group": "NONE",
+  "typeId": "yext/decimal",
+  "type": {
+    "decimalType": {}
+  },
+  "$schema": "https://schema.yext.com/config/km/field/v1"
+}

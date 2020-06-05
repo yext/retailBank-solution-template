@@ -1,0 +1,137 @@
+{
+  "$id": "c_cta",
+  "displayName": "CTA",
+  "type": {
+    "structType": {
+      "property": [
+        {
+          "displayName": "Text",
+          "isRequired": false,
+          "name": "text",
+          "type": {
+            "stringType": {
+              "stereotype": "SIMPLE"
+            }
+          },
+          "typeId": "yext/string"
+        },
+        {
+          "displayName": "URL",
+          "isRequired": false,
+          "name": "url",
+          "type": {
+            "stringType": {
+              "stereotype": "URL"
+            }
+          },
+          "typeId": "yext/string"
+        },
+        {
+          "displayName": "Icon",
+          "isRequired": false,
+          "name": "icon",
+          "type": {
+            "optionType": {
+              "option": [
+                {
+                  "displayName": "Star",
+                  "textValue": "Star"
+                },
+                {
+                  "displayName": "Thumb",
+                  "textValue": "Thumb"
+                },
+                {
+                  "displayName": "Receipt",
+                  "textValue": "Receipt"
+                },
+                {
+                  "displayName": "Pantheon",
+                  "textValue": "Pantheon"
+                },
+                {
+                  "displayName": "Mic",
+                  "textValue": "Mic"
+                },
+                {
+                  "displayName": "Directions",
+                  "textValue": "Directions"
+                },
+                {
+                  "displayName": "Calendar",
+                  "textValue": "Calendar"
+                },
+                {
+                  "displayName": "Callout",
+                  "textValue": "Callout"
+                },
+                {
+                  "displayName": "Info",
+                  "textValue": "Info"
+                },
+                {
+                  "displayName": "Briefcase",
+                  "textValue": "Briefcase"
+                },
+                {
+                  "displayName": "Kabob",
+                  "textValue": "Kabob"
+                },
+                {
+                  "displayName": "Person",
+                  "textValue": "Person"
+                },
+                {
+                  "displayName": "Magnifying_glass",
+                  "textValue": "Magnifying_glass"
+                },
+                {
+                  "displayName": "Office",
+                  "textValue": "Office"
+                },
+                {
+                  "displayName": "Link",
+                  "textValue": "Link"
+                },
+                {
+                  "displayName": "Window",
+                  "textValue": "Window"
+                },
+                {
+                  "displayName": "Phone",
+                  "textValue": "Phone"
+                },
+                {
+                  "displayName": "Tag",
+                  "textValue": "Tag"
+                },
+                {
+                  "displayName": "Document",
+                  "textValue": "Document"
+                },
+                {
+                  "displayName": "Chevron",
+                  "textValue": "Chevron"
+                },
+                {
+                  "displayName": "Support",
+                  "textValue": "Support"
+                },
+                {
+                  "displayName": "Pin",
+                  "textValue": "Pin"
+                },
+                {
+                  "displayName": "Gear",
+                  "textValue": "Gear"
+                }
+              ]
+            }
+          },
+          "typeId": "yext/option"
+        }
+      ]
+    }
+  },
+  "$schema": "https://schema.yext.com/config/km/field-type/v1"
+}

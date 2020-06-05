@@ -1,8 +1,8 @@
 {
   "$id": "creditUnionSolutionsTemplate",
-  "$type": "https://schema.yext.cloud/config/pages/site-config",
   "HostName": "${{creditUnionSolutionsTemplate_hostName}}",
   "SiteName": "Credit Union Solutions Template",
   "TargetRepoName": "${{creditUnionSolutionsTemplate_targetRepo}}",
-  "TemplateRepo": "admin-3020317-creditunion-answers-template.com"
+  "TemplateRepo": "admin-3020317-creditunion-answers-template.com",
+  "$schema": "https://schema.yext.com/config/pages/site-config/v1"
 }

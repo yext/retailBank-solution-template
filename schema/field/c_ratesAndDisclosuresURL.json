@@ -1,9 +1,0 @@
-{
-  "$id": "c_ratesAndDisclosuresURL",
-  "$schema": "https://json-schema.org/draft/2019-09/schema",
-  "$type": "https://schema.yext.cloud/config/schema/field",
-  "format": "uri",
-  "title": "Rates and Disclosures URL",
-  "type": "string",
-  "yext.field_id": "location.custom.3020317.rates_and_disclosures_url.0"
-}

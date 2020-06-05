@@ -1,0 +1,62 @@
+{
+  "$id": "ce_product",
+  "$schema": "https://schema.yext.com/config/km/entity-type/v1",
+  "description": "This is to store information around credit cards, loans, checking accounts, or other products offered by credit unions. ",
+  "displayName": "Product",
+  "enabled": true,
+  "field": [
+    {
+      "id": "yext/landingPageUrl",
+      "required": false
+    },
+    {
+      "id": "yext/description",
+      "required": false
+    },
+    {
+      "id": "yext/name",
+      "required": true
+    },
+    {
+      "id": "c_activeOnAnswers",
+      "required": false
+    },
+    {
+      "id": "c_activeOnPages",
+      "required": false
+    },
+    {
+      "id": "c_apr",
+      "required": false
+    },
+    {
+      "id": "c_ctas",
+      "required": false
+    },
+    {
+      "id": "c_photo",
+      "required": false
+    },
+    {
+      "id": "c_ratesAndDisclosuresURL",
+      "required": false
+    },
+    {
+      "id": "yext/folder",
+      "required": false
+    },
+    {
+      "id": "yext/keywords",
+      "required": false
+    },
+    {
+      "id": "yext/labels",
+      "required": false
+    },
+    {
+      "id": "yext/entityId",
+      "required": true
+    }      
+  ],
+  "pluralDisplayName": "Products"
+}

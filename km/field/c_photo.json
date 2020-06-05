@@ -1,0 +1,19 @@
+{
+  "$id": "c_photo",
+  "displayName": "Photo",
+  "localization": "PRIMARY_ONLY",
+  "group": "NONE",
+  "typeId": "yext/image",
+  "type": {
+    "imageType": {
+      "isSimpleImage": true,
+      "minSize": {
+        "height": 0,
+        "width": 0
+      },
+      "noAllowedAspectRatios": true,
+      "unconstrainedAspectRatioAllowed": true
+    }
+  },
+  "$schema": "https://schema.yext.com/config/km/field/v1"
+}

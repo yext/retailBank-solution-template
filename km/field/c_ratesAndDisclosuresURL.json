@@ -1,0 +1,13 @@
+{
+  "$id": "c_ratesAndDisclosuresURL",
+  "displayName": "Rates and Disclosures URL",
+  "localization": "PRIMARY_ONLY",
+  "group": "NONE",
+  "typeId": "yext/string",
+  "type": {
+    "stringType": {
+      "stereotype": "URL"
+    }
+  },
+  "$schema": "https://schema.yext.com/config/km/field/v1"
+}
